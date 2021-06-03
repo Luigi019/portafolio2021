@@ -49,17 +49,17 @@
 <table align="center">
                     <td>
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <th><a href=""><i class="bi-linkedin fs-2 mb-3 text-muted"></i></a></th>
+                        <th><a href="https://www.linkedin.com/in/luigi-josé-hernández-gutierrez-835018175/"><i class="bi-linkedin fs-2 mb-3 text-muted"></i></a></th>
                         <td><div>          </div>
                         <div>             </div></td>
-                        <th><a href=""><i class="bi-github fs-2 mb-3 text-muted"></i></a></th>
+                        <th><a href="https://github.com/Luigi019"><i class="bi-github fs-2 mb-3 text-muted"></i></a></th>
                     </div></td>
                     <td>
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <th><a href=""><i class="bi-linkedin fs-2 mb-3 text-muted"></i></a></th>
+                        <th><a href="https://www.linkedin.com/in/gustavo-alejandro-santaella-machado-107a59173/"><i class="bi-linkedin fs-2 mb-3 text-muted"></i></a></th>
                         <td><div>          </div>
                         <div>             </div></td>
-                        <th><a href=""><i class="bi-github fs-2 mb-3 text-muted"></i></a></th>
+                        <th><a href="https://github.com/gustavosantaella"><i class="bi-github fs-2 mb-3 text-muted"></i></a></th>
                     </div></td>
                 </div></table>
             </div>
