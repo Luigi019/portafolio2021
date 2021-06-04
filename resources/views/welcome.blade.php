@@ -8,10 +8,12 @@
 @endsection --}}
 @section("title", "Inicio")
 @section("content")
+
 @include("inc.About") 
 @include("inc.Services") 
 @include("inc.Portafolio")
 @include("inc.Contador")
+
 
     <!-- Call to action-->
         <section class="page-section bg-dark text-white">
