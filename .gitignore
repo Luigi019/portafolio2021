@@ -13,3 +13,14 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+*.swp
+*.swo
+*.swm
+*~
+*.*.sw*
+*.*.swp*
+*.*.swo*
+*.*swm*
+
+
+
