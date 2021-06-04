@@ -71,3 +71,22 @@
                 </div></table>
             </div>
         </section>
+        @section("js")
+
+
+
+
+<script> 
+@if(session("swal"))
+swal({
+  title: "Good job!",
+  text: "¡Nos contacto satisfactoriamente!",
+  icon: "success",
+  button: "Aww yiss!",
+});
+@endif
+</script>
+
+
+
+@endsection
