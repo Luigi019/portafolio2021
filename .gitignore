@@ -19,5 +19,7 @@ yarn-error.log
 *.*.sw*
 *.*.swp*
 *.*.swo*
+*.*swn*
+
 
 
