@@ -18,7 +18,7 @@ class ContactUs extends Notification
         $this->data = $data;
     }
 
-   
+
     public function via($notifiable)
     {
         return ['mail'];
@@ -28,11 +28,12 @@ class ContactUs extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-->line('Te hemos contactado a través de tu portafolio')
-->line($this->data->inputName)                    
-->line($this->data->inputMessage)
-->line($this->data->inputEmail)
-->line($this->data->inputPhone);
+        ->greeting("Hola!, mi nombre es {$this->data->inputName} y los he contactado a través de su portafolio.")           
+        ->line($this->data->inputMessage)
+        ->line('Contacto:')
+        ->line($this->data->inputEmail)
+        ->line($this->data->inputPhone)
+        ->salutation('Funny webs, tu mejor eleccion!');
 
     }
 
