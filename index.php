@@ -1,0 +1,1 @@
+@extends("resources/views/welcome.blade.php")
