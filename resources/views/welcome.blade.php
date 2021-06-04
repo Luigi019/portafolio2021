@@ -1,4 +1,4 @@
-@extends("layout/layoutMaster")
+@extends("layout.layoutMaster")
 {{-- @section('css')
 <style type="text/css">
     a{
@@ -13,8 +13,6 @@
 @include("inc.Services") 
 @include("inc.Portafolio")
 @include("inc.Contador")
-
-
     <!-- Call to action-->
         <section class="page-section bg-dark text-white">
             <div class="container px-4 px-lg-5 text-center">
@@ -22,6 +20,10 @@
                 <a class="btn btn-light btn-xl" href="#"><i class="bi-instagram fs-2 mb-3 text-darkgray-75 mb-4"></i></a>
             </div>
         </section>
-  
+
+
+
+
 @include("inc.Contacts")        
 @endsection
+

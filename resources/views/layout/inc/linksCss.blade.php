@@ -9,6 +9,7 @@
         <!-- SimpleLightbox plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)--> 
+
      <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
   <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
   @yield("css")

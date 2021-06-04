@@ -42,5 +42,6 @@
 
 
     @include('layout.inc.linksJs')
+
 </body>
 </html>

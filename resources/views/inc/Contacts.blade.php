@@ -10,7 +10,7 @@
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                     <div class="col-lg-6">
-                        <form method="post" action="{{ route('sendMail') }}">
+                        <form method="post" id="contactForm" action="{{ route('sendMail') }}">
                         @csrf 
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="inputName" type="text" placeholder="Ingresa tu nombre y apellido..." maxlength="25" onkeydown="return sololetras(event)" name="inputName" />
@@ -30,7 +30,7 @@
                             </div>
                             <div class="d-flex justify-content-center" align="center center">
                             <div class="d-grid"><button class="btn btn-primary btn-xl" type="submit">Aceptar</button></div>
-                            <div class="d-grid"><button class="btn btn-primary btn-xl" type="reset">Restaurar</button></div>
+                            <div class="  d-grid"><button class="ml-3 btn btn-primary btn-xl" type="reset">Restaurar</button></div>
                             </div>
                         </form>
                 
@@ -77,14 +77,20 @@
 
 
 <script> 
-@if(session("swal"))
+
+
+
+@if(session('swal'))
+
 swal({
-  title: "Good job!",
-  text: "¡Nos contacto satisfactoriamente!",
+  title: "Gracias por contactarnos!",
+  text: "¡Nos pondremos en contacto con usted lo antes posible!",
   icon: "success",
-  button: "Aww yiss!",
+  button: "Aceptar",
 });
+
 @endif
+
 </script>
 
 
