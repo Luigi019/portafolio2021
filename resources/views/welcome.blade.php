@@ -1,10 +1,10 @@
 @extends("layout/layoutMaster")
 @section("title", "Inicio")
 @section("content")
-@include("inc/about") 
-@include("inc/services") 
-@include("inc/portafolio")
-@include("inc/contador")
+@include("inc/About") 
+@include("inc/Services") 
+@include("inc/Portafolio")
+@include("inc/Contador")
 
     <!-- Call to action-->
         <section class="page-section bg-dark text-white">
