@@ -2,7 +2,7 @@
  <section class="programa page-section" id="contact">
  <div class="contenedor-video">
       <video autoplay="" loop="" poster="{{ asset ('assets/img/panificacion.jpg') }}">
-        <source src="{{ asset ('assets/video/video.mp4') }}" type="video/mp4">
+        <source src="{{ asset ('assets/video/video.mp4') }}" type="video/mp4" width="100%">
       </video>
     </div>
     <div class="contenido-programa">
