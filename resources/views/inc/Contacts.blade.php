@@ -1,6 +1,13 @@
  <!-- Contact-->
- <section class="page-section" id="contact">
+ <section class="programa page-section" id="contact">
+ <div class="contenedor-video">
+      <video autoplay="" loop="" poster="{{ asset ('assets/img/panificacion.jpg') }}">
+        <source src="{{ asset ('assets/video/video.mp4') }}" type="video/mp4">
+      </video>
+    </div>
+    <div class="contenido-programa">
     <div class="container px-4 px-lg-5">
+    <div class="programa-contactame">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-8 col-xl-6 text-center">
                 <h2 class="mt-0">!Vamos a mantenernos en Contacto!</h2>
@@ -13,11 +20,11 @@
                 <form method="post" id="contactForm" action="{{ route('sendMail') }}">
                     @csrf 
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="inputName" type="text" placeholder="Ingresa tu nombre y apellido..." maxlength="25" onkeydown="return sololetras(event)" name="inputName" />
+                        <input class="form-control" id="inputName" type="text" placeholder="Ingresa tu nombre y apellido..." maxlength="25" onkeydown="return sololetras(event)" name="inputName" required/>
                         <label for="inputName">Nombre Completo</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" name="inputEmail"  />
+                        <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" name="inputEmail"  required/>
                         <label for="inputEmail">Dirección de Correo Electrónico</label>
                     </div>
                     <div class="form-floating mb-3">
@@ -25,7 +32,7 @@
                         <label for="inputPhone">Número Teléfonico</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <textarea class="form-control" id="inputMessage" type="text" placeholder="Ingrese texto aquí..." style="height: 10rem"  name="inputMessage" ></textarea>
+                        <textarea class="form-control" id="inputMessage" type="text" placeholder="Ingrese texto aquí..." style="height: 10rem"  name="inputMessage" required></textarea>
                         <label for="inputMessage">Mensaje</label>
                     </div>
                     <div class="d-flex justify-content-center" align="center center">
@@ -33,10 +40,9 @@
                         <div class="  d-grid"><button class="ml-3 btn btn-primary btn-xl" type="reset">Restaurar</button></div>
                     </div>
                 </form>
-                
+               
             </div>
-        </div>
-        <table align="center">
+        </div> <table align="center">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <th>
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
@@ -70,7 +76,11 @@
                                             </div></td>
                                         </div></table>
                                     </div>
+</div>   </div>
+     
+     </div>   
                                 </section>
+                               <br><br><br><br>
                                 @section("js")
 
 

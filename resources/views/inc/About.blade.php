@@ -1,6 +1,8 @@
 <!-- About-->
 <section class="page-section bg-primary" id="about">
 <div class="desarrolladores contenedor clearfix">
+<h2 class="text-center mt-0 text-white">Fundadores</h2>
+                <hr class="divider text-white" />
             <div class="desarrollador">
     <blockquote>
       
@@ -30,6 +32,6 @@ Las metodología scrum y ágiles considero que son apropiadas para afrontar un b
 
   <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-  <a class="btn btn-light btn-xl" href="#services">Conoce todo lo que ofrecemos!</a>
+  <a class="btn btn-light btn-xl" href="#services">Conoce todo lo que nos representa</a>
 </div></div>
         </section>

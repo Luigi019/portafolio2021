@@ -4,6 +4,7 @@
   <div class="contenedor">
     <div class="row">
       <ul class="resumen-evento clearfix">
+        
           <li><p class="numero">0</p>Proyectos Desarrollados</li>
           <li><p class="numero">0</p>Tecnologias que se dominan</li>
           <li><p class="numero">0</p>Lenguajes de Completo dominio</li>
