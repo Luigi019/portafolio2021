@@ -44,7 +44,7 @@
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Sitio Web</div>
-                                <div class="project-name"><a href="https://drayeseniaponce.online/">Clinica Diagnostico Medico</a></div>
+                                <div class="project-name">Clinica Diagnostico Medico</div>
                             </div>
                         </a>
                     </div>
