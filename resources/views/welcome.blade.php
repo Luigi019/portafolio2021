@@ -6,9 +6,22 @@
 }
 </style>
 @endsection --}}
+<style>
+    /* Prelaoder */
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #fff url("{{ asset('assets/img/preloader.svg')}}") no-repeat center center;
+}
+</style>
 @section("title", "FunnyWebs")
 @section("content")
-
+<div id="preloader"></div>
 @include("inc.About") 
 @include("inc.Services") 
 @include("inc.Portafolio")

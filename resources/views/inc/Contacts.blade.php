@@ -1,13 +1,8 @@
  <!-- Contact-->
- <section class="programa page-section" id="contact">
- <div class="contenedor-video">
-      <video autoplay="" loop="" poster="{{ asset ('assets/img/panificacion.jpg') }}">
-        <source src="{{ asset ('assets/video/video.mp4') }}" type="video/mp4" width="100%">
-      </video>
-    </div>
-    <div class="contenido-programa">
+ <section class="page-section" id="contact">
+    <div class="">
     <div class="container px-4 px-lg-5">
-    <div class="programa-contactame">
+    <div class="">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-8 col-xl-6 text-center">
                 <h2 class="mt-0">!Vamos a mantenernos en Contacto!</h2>
@@ -17,7 +12,7 @@
         </div>
         <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
             <div class="col-lg-6">
-                <form method="post" id="contactForm" action="{{ route('sendMail') }}">
+                <form method="post" id="contactForm" action="{{ route('sendMail') }}" class="responsive-form">
                     @csrf 
                     <div class="form-floating mb-3">
                         <input class="form-control" id="inputName" type="text" placeholder="Ingresa tu nombre y apellido..." maxlength="25" onkeydown="return sololetras(event)" name="inputName" required/>
@@ -37,7 +32,7 @@
                     </div>
                     <div class="d-flex justify-content-center" align="center center">
                         <div class="d-grid"><button class="btn btn-primary btn-xl" type="submit">Aceptar</button></div>
-                        <div class="  d-grid"><button class="ml-3 btn btn-primary btn-xl" type="reset">Restaurar</button></div>
+                        <div class="  d-grid"><button class="ml-3 btn btn-light btn-xl" type="reset">Restaurar</button></div>
                     </div>
                 </form>
                

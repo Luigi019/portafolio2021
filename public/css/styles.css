@@ -2954,14 +2954,18 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #00ad7d;
-  border-color: #00ad7d;
+            color: #000;
+            background: #fff;
+            background: -webkit-linear-gradient(to right, #00ad7d, #fff);
+            background: linear-gradient(to right, #00ad7d, #fff);
+
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #00ad7d;
-  border-color: #00ad7d;
+            color: #000;
+            background: #00ad7d;
+            background: -webkit-linear-gradient(to right, #fff, #00ad7d);
+            background: linear-gradient(to right, #fff, #00ad7d);
+
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;

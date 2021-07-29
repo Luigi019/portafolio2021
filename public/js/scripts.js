@@ -1,11 +1,8 @@
-/*!
-* Start Bootstrap - Creative v7.0.0 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
+// Preloader
+$(window).on('load', function() {
+    $('#preloader').delay(100).fadeOut('slow',function(){$(this).remove();});
+  });
+
 var api = 'AIzaSyCeSzprwFmU0SsAIf36sT9h0NLvf3ReD_4';
 $ (function(){
     //lettering

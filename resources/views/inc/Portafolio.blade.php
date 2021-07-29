@@ -1,4 +1,12 @@
-  <!-- Portfolio-->
+<style>
+    .col-lg-4 img{
+        max-width: 450px!important;
+        min-width: 450px!important;
+        max-height: 280px!important;
+        min-height: 280px!important;
+    }
+</style>
+<!-- Portfolio-->
   <div id="portfolio">
             <div class="container-fluid p-0">
             <h2 class="text-center mt-0">Portafolio</h2>
@@ -36,7 +44,7 @@
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Sitio Web</div>
-                                <div class="project-name">Clinica Diagnostico Medico</div>
+                                <div class="project-name"><a href="https://drayeseniaponce.online/">Clinica Diagnostico Medico</a></div>
                             </div>
                         </a>
                     </div>
